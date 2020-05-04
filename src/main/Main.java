@@ -19,7 +19,10 @@ public class Main {
             System.out.print(separater + acid);
             separater = "-";
         }
-        System.out.println();
-
+        System.out.println();   
+        
+        System.out.print("Changes Made");
+        //Fixed out of bounds error within transcribe for DnaSequence not sure if right result though
+        
     }
 }
